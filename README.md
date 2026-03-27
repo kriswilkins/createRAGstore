@@ -13,12 +13,12 @@ Recommended system requirements:
 For reference, I built and tested this on a website with over 65,000 unique URLs. Total runtime for that
 website was approximately 21 hours, which is why I have implemented checkpointing and resuming.
 
-Ensure your venv is activated.
-run pip install -r requirements.txt
-In crawler.py, set START_URL and BASE_DOMAIN
-Run crawler to create urls_list.py
-Run load_prep to create docs.json
-Run chunk to create chunks.json
+Ensure your venv is activated. /n
+run pip install -r requirements.txt /n
+In crawler.py, set START_URL and BASE_DOMAIN /n
+Run crawler to create urls_list.py /n
+Run load_prep to create docs.json /n
+Run chunk to create chunks.json /n
 run embed_documents to create chroma_db_nomic database
 
 Once embed_documents has completed, you will have a directory named chroma_db_nomic that you can use as a RAG
