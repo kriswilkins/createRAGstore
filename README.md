@@ -2,7 +2,7 @@ This set of scripts will allow you to scrape any publicly accessible website to 
 with a pretrained LLM, enabling you to create a chatbot that is a subject matter expert on content from that
 website.
 
-Requires python3.12 as of this writing, in order to istall torch with cuda. I recommend running python3.12
+Requires python3.12 as of this writing, in order to install torch with cuda. I recommend running python3.12
 in a virtual environment for this. I highly recommend running this with cuda enabled as it will drastically
 reduce the time that embed_documents takes to complete.
 
